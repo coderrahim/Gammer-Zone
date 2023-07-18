@@ -1,0 +1,10 @@
+/* Mobile Responsive */
+@media screen and (max-width: 576px){
+    nav,
+    .menus ul{
+        flex-direction: column;
+    }
+    nav{
+        gap: 30px;
+    }
+}
