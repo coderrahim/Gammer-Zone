@@ -23,7 +23,8 @@
 /* Mobile Responsive */
 @media screen and (max-width: 576px){
     nav,
-    .menus ul    
+    .menus ul,
+    .gammer-container    
     {
         flex-direction: column;
     }
@@ -36,7 +37,9 @@
         margin: 30px 0;
     }
     .banner-content,
-    .banner-image{
+    .banner-image,
+    .gammer-content
+    {
         width: 90%;
     }
     .banner-content .secondary-title, 
@@ -56,5 +59,14 @@
         font-size: 1rem;
         padding: 10px 20px;
         margin: 10 0px;
+    }
+    .gammer-content{
+        text-align: center;
+    }
+    .gammer-content .primary-description{
+        font-size: 18px;
+    }
+    .gammer-content .qutue{
+        font-size: 30px;
     }
 }
