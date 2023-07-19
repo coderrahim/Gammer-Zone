@@ -202,3 +202,38 @@ nav {
     font-weight: 700;
     line-height: 45px;
 }
+
+/* Image Container */
+
+.image-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 100px;
+    max-width: 1200px;
+}
+.image-container .content{
+    max-width: 50%;
+    text-align: right;
+    margin-right: 30px;
+}
+.content .primary-description{
+    padding-left: 90px;
+}
+.image-area{
+    width: 50%;
+    position:relative;
+}
+.image-area .main-image{
+    max-width: 100%;
+    right: 0;
+    display: block;
+}
+.image-area .small-img{
+}
+.image-area .small-img img{
+    position: absolute;
+    top: 50%;
+    left: -25%;
+    max-height: 250px;
+}

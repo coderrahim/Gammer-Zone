@@ -17,14 +17,19 @@
         font-size: 1rem;
         padding: 10px 20px;
         margin: 10px;
-    }    
+    }   
+    .image-area .small-img img{
+        height: 200px;
+    } 
 }
 
 /* Mobile Responsive */
 @media screen and (max-width: 576px){
     nav,
     .menus ul,
-    .gammer-container    
+    .gammer-container,
+    .image-container,
+    .image-container
     {
         flex-direction: column;
     }
@@ -38,12 +43,19 @@
     }
     .banner-content,
     .banner-image,
-    .gammer-content
+    .gammer-content,
+    .content,
+    .image-container,
+    .content,
+    .image-area,
+    .image-area .main-image
     {
         width: 90%;
     }
     .banner-content .secondary-title, 
-    .banner-content .primary-title
+    .banner-content .primary-title,
+    .image-container .content,
+    .content>h2
     {
         font-size: 2rem;
         margin: 20px 0;
@@ -55,10 +67,11 @@
     {
         font-size: .9rem;
     }
-    .btn-primary{
+    .btn-primary
+    {
         font-size: 1rem;
         padding: 10px 20px;
-        margin: 10 0px;
+        margin: 10px 0px;
     }
     .gammer-content{
         text-align: center;
@@ -68,5 +81,17 @@
     }
     .gammer-content .qutue{
         font-size: 30px;
+    }
+    .image-container{
+        gap: 10px;
+    }
+    .content{
+        max-width: 100%;
+    }
+    .content .primary-description{
+        padding: 0px;
+    }
+    .image-area .small-img img{
+        height: 200px;
     }
 }
