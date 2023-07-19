@@ -168,6 +168,61 @@ nav {
     max-width: 100%;
 }
 
+/* Feature Section */
+.feature-container{    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.card-image{
+    position: relative;
+    width: 100%;
+}
+.card-image:hover{
+    border: 2px solid #FF42A5;
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-content{
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    background-color: black;
+}
+.overlay-content:hover{
+    opacity: .3;
+}
+.overlay-content .fa-solid, .overlay-content p{
+    position: relative;
+    top: 50%;
+}
+.overlay-content .fa-solid{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+.overlay-content p a{
+    color: white;
+    text-decoration: none;
+}
 /* Gammer Section */
 #gammer-container {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -233,8 +288,6 @@ nav {
     right: 0;
     display: block;
 }
-
-.image-area .small-img {}
 
 .image-area .small-img img {
     position: absolute;
