@@ -94,4 +94,47 @@
     .image-area .small-img img{
         height: 200px;
     }
+    }
+    .category img{
+        width: 40px;
+        height: 40px;
+    }
+    .category-title{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .category-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-menus ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-content: center;
+        list-style-type: none;
+        margin: 20px;
+        row-gap: 30px;
+    }
+    .social-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0px 30px;
+    }
+    .social-icon .fa-brands {
+        font-size: 30px;
+        margin: 20px 0px;
+    }
+    .footer-buttom-menus ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        list-style-type: none;
+        margin: 20px 20px 40px;
+    }
+    .footer-buttom-menus ul li {
+        padding: 10px 0px;
+    }
 }
