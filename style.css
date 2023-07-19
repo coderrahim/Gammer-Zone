@@ -343,8 +343,8 @@ header .menus{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 7px;
+    padding: 7px;
     border-radius: 50px;
     border: 1px solid transparent;
     background: #FFF;
@@ -359,14 +359,14 @@ header .menus{
 }
 
 .category img {
-    height: 60px;
-    width: 60px;
-    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
 }
 
 .category-title {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 
@@ -421,6 +421,7 @@ footer {
 .social-icon .fa-brands {
     font-size: 40px;
     margin: 30px 10px;
+    color: white;
 }
 
 .footer-buttom-menus ul {
