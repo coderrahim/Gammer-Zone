@@ -236,7 +236,7 @@ header .menus{
     background-color: black;
 }
 .overlay-content:hover{
-    opacity: .6;
+    opacity: .7;
     transition: .5s;
 }
 .overlay-content .fa-solid, .overlay-content p{
@@ -251,6 +251,10 @@ header .menus{
 .overlay-content p a{
     color: white;
     text-decoration: none;
+}
+.overlay-content .watch{
+    color: #F61C0D;
+    font-weight: 700;
 }
 /* Gammer Section */
 #gammer-container {
